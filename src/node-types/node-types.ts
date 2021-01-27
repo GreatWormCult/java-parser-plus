@@ -1013,7 +1013,7 @@ export interface UnannClassTypeCstNode extends CstNode {
 
 export type UnannClassTypeCtx = MultiIdentifier &
   Opt<{
-    typeArguments: TypeArgumentsCstNode[];
+    typeArguments: [TypeArgumentsCstNode];
   }> &
   OptAnnotations;
 
